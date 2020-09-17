@@ -18,7 +18,7 @@ const showDonation = async () =>
     chalkAnimation.neon('if you like this tool consider donating:');
 
     setTimeout(() => {
-      console.log('0x770f4bb070520f46cc5d23d07bb7ad9406319d16');
+      console.log('0x28a21C1EC5cc6C167173B969AA99279ac930c2c3');
       resolve();
     }, 5000);
   });

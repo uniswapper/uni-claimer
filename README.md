@@ -185,3 +185,11 @@ This is done with the following command:
 ```
 yarn claim
 ```
+
+## Donations
+
+UNI or ETH donations are appreciated 😄
+
+```
+0x28a21C1EC5cc6C167173B969AA99279ac930c2c3
+```
