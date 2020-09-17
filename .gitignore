@@ -1,0 +1,11 @@
+build/
+typechain/
+dist/
+node_modules/
+coverage.json
+coverage/
+.env
+*.swo
+*.swp
+proofs.json
+
