@@ -17,7 +17,6 @@ const checkFileExists = location =>
 
 const main = async () => {
   const location = `${process.cwd()}/proofs.json`;
-  console.log(location);
 
   const exists = await checkFileExists(location);
   if (exists) {

@@ -45,10 +45,13 @@ const getExternalProvider = (): Provider =>
     alchemy: alchemyApiToken,
     etherscan: etherscanApiToken,
     infura: infuraApiToken,
+    quorum: 1,
   });
 
 const getOwnProvider = (): Provider =>
   new ethers.providers.JsonRpcProvider(providerUrl);
 
 export const getProvider = (): Provider =>
-  providerUrl ? getOwnProvider() : getExternalProvider();
+  providerSource === ProviderSource.Local
+    ? getOwnProvider()
+    : getExternalProvider();
