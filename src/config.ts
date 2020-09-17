@@ -26,7 +26,7 @@ export const executorSource: ExecutorSource = ExecutorSource.Mnemonic;
 export const executorAccountNumber = 0;
 
 // REQUIRED
-export const providerSource: ProviderSource = ProviderSource.Local;
+export const providerSource: ProviderSource = ProviderSource.External;
 
 // only needed if providerSource is ProviderSource.Local
 export const providerUrl = 'http://127.0.0.1:8545';
